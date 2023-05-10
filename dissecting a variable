@@ -1,0 +1,8 @@
+variavel=input('Digite o que será avaliado: ')
+print('O Tipo primitivo desse valor sera de : ',type(variavel))
+print('É numerico? ', variavel.isnumeric())
+print('É alfabetico? ', variavel.isalpha())
+print('É alfanumerico? ', variavel.isalnum())
+print('Está em maiusculo? ', variavel.isupper())
+print('Tem somente espaços? ', variavel.isspace())
+print('Está capitalizada? ', variavel.istitle())
