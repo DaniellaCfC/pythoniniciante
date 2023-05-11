@@ -1,0 +1,5 @@
+n1=int(input('Informe a primeira nota do Aluno: '))
+n2=int(input('Informe a segunda nota do Aluno: '))
+s=(n1+n2)/2
+
+print('A media de notas sera de: {}'.format(s))
