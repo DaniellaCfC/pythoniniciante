@@ -1,4 +1,5 @@
-n1=int(input('Informe um numero: '))
-suc=n1+1
-ant=n1-1
-print('O sucessor do numero sera: {} e o seu antecessor sera {}'.format (suc, ant))
+n=int(input('Insira um numero: '))
+#a=n-1
+#s=n+1
+#print('O numero selecionado é {}, seu antecessor será {} e seu sucessor {}'.format(n,a,s)) abaixo de modo a colocar apenas uma variavel
+print('O numero selecionado é {}, seu antecessor será {} e seu sucessor {}'.format(n, n-1, n+1))
