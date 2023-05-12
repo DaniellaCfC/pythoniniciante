@@ -1,0 +1,8 @@
+n1=int(input('Leia um numero: '))
+#p=n1**(1/2)
+#d=n1*2
+#t=n1*3
+#print('A potencia sera de {:.2f} \n O dobro {} \n E o triplo {} '.format(p,d,t)) 
+#solução condensada abaixo
+
+print('A potencia do numero {} sera de {:.2f}, \n O dobro sera {} \n E o triplo {}.'.format(n1, n1**(1/2), n1*2, n1*3))
