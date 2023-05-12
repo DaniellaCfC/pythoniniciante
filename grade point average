@@ -1,5 +1,9 @@
-n1=int(input('Informe a primeira nota do Aluno: '))
-n2=int(input('Informe a segunda nota do Aluno: '))
-s=(n1+n2)/2
+nota1=float(input('Informe a primeira nota:')) #nota é real então usamos float
+nota2=float(input('Informe a segunda nota: '))
+#total=nota1+nota2
+#media=total/2
+#print('A media das notas sera de: {}'.format(media))
 
-print('A media de notas sera de: {}'.format(s))
+print('A media das notas sera de: {}'.format((nota1+nota2)/2))
+
+
