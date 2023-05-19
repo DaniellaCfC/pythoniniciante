@@ -1,0 +1,4 @@
+real=float(input('Qual o valor que você tem na carteira? '))
+dolar=real/3.27
+print(f'Com R${real} reais, você podera comprar10 US${dolar :.2f} dolares')
+#f - format
