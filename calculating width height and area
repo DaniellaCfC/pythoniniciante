@@ -1,0 +1,8 @@
+print('Faça um programa que leia a largura e a altura de uma parede em metros, calcule sua area e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta, pinta uma area de 2m2 ')
+largura=float(input('Informe a largura da parede: '))
+altura=float(input('Informe a altura da parede: '))
+area=float(largura*altura)
+litros=float(area*0.5)
+print(f'Sua parede tem a dimensão de {largura}M X {altura}M e sua area é de {area :.2f}m2. ')
+print(f'Para pintar essa parede, você precisara de {litros}Litros de tinta')
+#f string
