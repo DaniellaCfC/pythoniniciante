@@ -1,0 +1,4 @@
+#formula (1 °C × 9/5) + 32 = ---33,8 °F---
+celsius=float(input('Informe a temperatura em Celsius: '))
+Fahrenheit=(celsius * 9/5) + 32
+print(f'A temperatura de {celsius}°C corresponde há {Fahrenheit :.2f}°F')
